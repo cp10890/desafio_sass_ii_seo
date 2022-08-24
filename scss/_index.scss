@@ -1,0 +1,66 @@
+nav{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 29%, rgba(106,129,255,1) 100%);
+}
+.btn{
+    background-color: darkblue;
+    color: whitesmoke;
+}
+.main-index{
+    display: flex;
+    flex-direction: column;
+    grid-area: main-index;
+    .img1-index{
+        img{
+            width: 100%;
+            display: block;
+            margin-top: 100px;
+        }
+    }
+    h2{
+        margin: 20px 20px 0 20px;
+        padding: 0;
+    }
+}
+.nosotrosIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    padding-top: 0;
+}
+.main-index h2{
+    padding: 10px;
+}
+.main-index p{
+    padding: 10px;
+}
+.nosotros{
+    text-align: justify;
+    width: 40%;
+}
+.mapa{
+    width: 45%;
+}
+.mapa img{
+    width: 100%;
+}
+.proyectos-index{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.img-index{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    min-width: 300px;
+}
+footer{
+    background: linear-gradient(0deg, rgba(133,152,255,1) 0%, rgba(255,255,255,1) 71%, rgba(255,255,255,1) 100%);
+}

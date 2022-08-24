@@ -1,0 +1,37 @@
+/*PAGINA SERVICIOS*/
+.pag-serv{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 198px, 1fr, 1fr, 206px;
+    grid-template-areas:
+    "header header"
+    "main-serv main-serv"
+    "main-serv main-serv"
+    "footer footer";
+}
+.main-serv{
+    margin-top: 100px;
+    grid-area: main-serv;
+}
+.main-serv h2{
+    margin: 20px 20px 0px 20px;
+}
+.main-serv p{
+    margin: 0 20px;
+    padding: 20px;
+    text-align: justify;
+}
+.list-serv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.serv{
+    height: 300px;
+    width: 200px;
+    background-color: grey;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
